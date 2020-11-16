@@ -22,7 +22,7 @@ Time, time, time... and...
 You can follow the creation of this proyect with the uploaded YouTube file:
 
 ```
-https://youtu.be/GHzStTeFztM
+https://www.youtube.com/watch?v=MJzBV3qNIwY
 ```
 
 * Step 1: Understand what SVG is for. 
