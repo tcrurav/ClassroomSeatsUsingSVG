@@ -2,6 +2,8 @@
 
 This project shows a basic example using SVG with Vanilla JS.
 
+![alt text](https://github.com/tcrurav/ClassroomSeatsUsingSVG/blob/master/screenshots/screenshot-1.png)
+
 ## How to start with SVG basics
 
 To start learning the basics of SVG I recommend this site: https://www.w3schools.com/graphics/svg_intro.asp
