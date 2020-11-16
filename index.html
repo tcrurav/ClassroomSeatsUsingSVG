@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/seats.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-sm-6 text-center" id="classroom-col">
+        <svg id="classroom">
+          <image href="img/teacher.png" />
+            <rect class="seat" id="seat-1"/>
+            <rect class="seat" id="seat-2" />
+            <rect class="seat" id="seat-3" />
+            <rect class="seat" id="seat-4" />
+            <rect class="seat" id="seat-5" />
+            <rect class="seat" id="seat-6" />
+            <rect class="seat" id="seat-7" />
+            <rect class="seat" id="seat-8" />
+            <rect class="seat" id="seat-9" />
+            <rect class="seat" id="seat-10" />
+            <rect class="seat" id="seat-11" />
+            <rect class="seat" id="seat-12" />
+            <rect class="seat" id="seat-13" />
+            <rect class="seat" id="seat-14" />
+            <rect class="seat" id="seat-15" />
+            <rect class="seat" id="seat-16" />
+        </svg>
+      </div>
+      <div class="col-sm-6 mt-4">
+        <form id="form-seat" action="">
+          <div class="form-group">
+            <label for="name">Student Name:</label>
+            <input type="text" class="form-control" placeholder="Enter student name" id="name">
+          </div>
+          <div class="form-group">
+            <label for="seat">Seat:</label>
+            <input type="number" class="form-control" placeholder="Enter seat" id="seat">
+          </div>
+          <button type="submit" class="btn btn-primary">Assign seat</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
